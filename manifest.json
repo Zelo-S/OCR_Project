@@ -1,0 +1,9 @@
+{
+    "name":"test",
+    "version":"1.0",
+    "manifest_version":2,
+    "browser_action":{
+        "defult_icon":"StatsThingPt2.PNG",
+        "default_popup":"popup.html"
+    }
+}

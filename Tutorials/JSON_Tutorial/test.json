@@ -1,0 +1,14 @@
+{
+    
+    "key":"value",
+    "key1":"value1",
+    "favoriteNum":3,
+    "hobbies":["Weight lifting", "Bowling"],
+    
+    "person1":[{
+        "name":"Steve",
+        "favoriteLanguage":"C++",
+        "favNum":2
+    }]
+
+}

@@ -1,0 +1,21 @@
+{
+  "name": "ocr_project",
+  "version": "1.0.0",
+  "description": "Testing for node.js",
+  "main": "content.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Stev",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "html2canvas": "^1.0.0-rc.7",
+    "puppeteer": "^5.5.0",
+    "uuid": "^8.3.1",
+    "webshot": "^0.18.0"
+  }
+}
