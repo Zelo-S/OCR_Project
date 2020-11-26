@@ -1,4 +1,4 @@
-
+// how to make html2canvas data into downloadable png ---> https://stackoverflow.com/questions/31656689/how-to-save-img-to-users-local-computer-using-html2canvas
 // event listener for button click
 document.getElementById('screenshot').addEventListener('click', takeScreenshot);
 
@@ -10,16 +10,21 @@ function takeScreenshot(){
     });
 }
 
-/*
 function saveAs(uri, filename){
     var link = document.createElement('a');
     if(typeof link.download === 'string'){
         link.href = uri;
         link.download = filename;
         
+        
+        
+        
+        
+        var linkAnc = document.createTextNode('This is a link');
+        link.appendChild(linkAnc);
+        document.body.appendChild(link);
         link.click();
-        //document.body.removeChild(link);
     }else{
         window.open(uri);
     }
-}*/
+}
