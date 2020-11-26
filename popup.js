@@ -10,7 +10,7 @@ function takeScreenshot(){
     });
 }
 
-
+/*
 function saveAs(uri, filename){
     var link = document.createElement('a');
     if(typeof link.download === 'string'){
@@ -22,4 +22,4 @@ function saveAs(uri, filename){
     }else{
         window.open(uri);
     }
-}
+}*/
